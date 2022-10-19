@@ -1,4 +1,5 @@
 -- Data Quality Issues
+-- MySQL 8.0
 
 -- Reveals several items having the same barcodes, but different brandCodes, categorys, showing what appear to be totally different products.
 select

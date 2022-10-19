@@ -1,3 +1,6 @@
+-- Stakeholder Queries
+-- MySQL 8.0
+
 -- Which brand has the most spend among users who were created within the past 6 months?
 -- Which brand has the most transactions among users who were created within the past 6 months?
 select b.brandName, COUNT(r.receiptId), SUM(ri.finalPrice) from receipts r
